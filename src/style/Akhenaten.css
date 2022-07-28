@@ -1,0 +1,219 @@
+.tut {
+    width: 100%;
+}
+.removeBG {
+    height: calc(100vh - 100px);
+    width: 100%;
+    background: linear-gradient(90deg, #FFE4C4,#E7DBBB);
+    display: flex;
+}
+.removeBGp {
+    flex: 60%;
+}
+.removeBGp h1,
+.removeBGp p {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 60px;
+}
+.removeBGimg {
+    flex: 40%;
+}
+.removeBGimg img {
+    padding-left: 14%;
+}
+.tutContain {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(180deg, #E7DBBB,#FFE4C4 );
+    display: flex;
+}
+.tutContainP {
+    flex: 50%;
+    padding: 15px;
+}
+.tutContainP h1, 
+.tutContainP h2 {
+    text-align: center;
+}
+.tutContainP p {
+    line-height: 1.7;
+    font-size: larger;
+
+}
+
+    
+.tutContainImg {
+    flex: 50%;
+    max-width: 50%;
+    max-height: 95vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 15px;
+    align-items: center;
+}
+.tutContainImg img {
+    max-width: 100%;
+    max-height: 90vh;
+    align-items: center;
+    align-content: center;
+    padding-top: 5vh;
+}
+#BAkh1 p {
+    font-size: 16px;
+}
+#BAkh2{
+    padding-bottom: 75px;
+}
+#BAkh3{
+    padding-bottom: 75px;
+}
+#BAkh4 {
+    font-size: 60px !important;
+}
+@media screen and (max-width: 900px) {
+    .tut {
+     display: none;
+    }
+    .mobTut {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 16px;
+    }
+    .mobTut img {
+        max-width: 99%;
+        max-height: 90vh;
+    }
+    .removeBG {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 235px
+    }
+    .removeBG .removeBGimg img {
+        width: 85%;
+    }
+    .mobTut p {
+        font-size: 15.5px;
+        text-align: center;
+    }
+    .tutContain {
+        width: 100%;
+        flex-direction: column;
+        padding-bottom: 37px;
+        padding-bottom: 50px;
+    }
+    #rmsysy h1 {
+        font-size: 50px ;
+    }
+    #rmsysy p {
+        font-size: 36px;
+    }
+    .tutContainImg {
+        flex: 100%;
+        width: 90%;
+        max-width: 95%;
+    }
+    #cct6, #cct7, #cct8, #cct9, #cct10 {
+        flex: 100%;
+        width: 90%;
+        max-width: 95%;
+    } 
+     
+    #TheGhanging {
+        padding-bottom: 643px;
+    }
+    #Amarnalett{
+        padding-bottom: 579px;
+    }
+    #akhEnd {
+        padding-bottom: 400px;
+    }
+    #akhhHead {
+        font-size: 32px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .tut {
+     display: none;
+    }
+    .mobTut {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 16px;
+    }
+    .mobTut img {
+        max-width: 100%;
+        max-height: 90vh;
+    }
+    .removeBG {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 117px
+    }
+    .removeBG .removeBGimg img {
+        width: 85%;
+    }
+    .mobTut p {
+        font-size: 14px;
+        text-align: center;
+    }
+    .tutContain {
+        width: 100%;
+        flex-direction: column;
+        padding-bottom: 271px;
+    }
+    
+    .tutContainImg {
+        flex: 100%;
+        width: 90%;
+        max-width: 95%;
+    }
+    #cct1, #cct2, #cct3, #cct4, #cct5 {
+        flex: 100%;
+        width: 90%;
+        max-width: 95%;
+    } 
+   
+    #akhhHead{
+        font-size: 30px;
+    }
+    #TheGhanging {
+        padding-bottom: 643px;
+    }
+    #Amarnalett{
+        padding-bottom: 579px;
+    }
+    #akhEnd {
+        padding-bottom: 400px;
+    }
+}
+@media screen and (max-width: 376px) {
+    .mobTut p {
+        font-size: 12px;
+    }
+    .mobTut {
+        font-size: 14px;
+    }
+    .removeBG {
+        padding-bottom: 117px;
+    }
+    
+    #TheGhanging {
+        padding-bottom: 625px;
+    }
+    #Amarnalett{
+        padding-bottom: 554px;
+    }
+    #akhEnd {
+        padding-bottom: 400px;
+    }
+    #akhhHead{
+        font-size: 28px;
+    }
+}
